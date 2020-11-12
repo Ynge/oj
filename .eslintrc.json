@@ -1,0 +1,24 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+     "extends": [
+        "eslint:recommended"
+    ],
+    "globals":{
+        "describe":"readonly",
+        "it":"readonly"
+    },
+    "rules": {
+        "no-console":1,
+        "no-undef":"error"
+    }
+}

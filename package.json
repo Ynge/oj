@@ -1,0 +1,33 @@
+{
+  "name": "oj",
+  "version": "1.0.0",
+  "description": "my learning project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha 'test/**/**/*@(js)'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ynge/oj.git"
+  },
+  "keywords": [
+    "study"
+  ],
+  "author": "Ynge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ynge/oj/issues"
+  },
+  "homepage": "https://github.com/Ynge/oj#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.11.0",
+    "mocha": "^8.1.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
